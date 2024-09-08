@@ -1,0 +1,96 @@
+.sidebar {
+    width: 100vw;
+    height: 6.75vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F17228;
+    font-weight: bold;
+    font-size: 31.11px;
+}
+
+.logo img {
+    margin-right: 8px;
+}
+
+.logo span {
+    color: #FFB30E;
+
+}
+
+.localizacao span {
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.localizacao img {
+    padding: 0 4px;
+}
+
+.box-search-and-login {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    font-weight: bold;
+
+}
+
+.box-search-and-login img {
+    margin-right: 6px;
+}
+
+.box-search-and-login button {
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 14px 24px;
+    gap: 10px;
+    margin-left: 20px;
+    border: 0;
+
+    width: 118px;
+    height: 46px;
+
+    background: #FFFFFF;
+    color: #FFB800;
+
+    box-shadow: 0px 5px 10px rgba(255, 174, 0, 0.26), 0px 20px 40px rgba(255, 174, 0, 0.29);
+    border-radius: 8px;
+
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 100%;
+
+    text-align: center;
+
+    cursor: pointer;
+
+    transition: .25s;
+
+}
+
+.box-search-and-login button:hover {
+    background-color: #FFB800;
+    color: #fff;
+    box-shadow: 0px 0px 10px 1px #ffcf56;
+
+    transition: .25s;
+}

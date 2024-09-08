@@ -1,0 +1,12 @@
+.section {
+    display: block;
+    width: 100vw;
+}
+
+.section .background {
+    width: 100%;
+}
+
+.section .prato {
+    width: 25%;
+}
